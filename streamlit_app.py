@@ -5,6 +5,7 @@ st.set_page_config(page_title="내 소개", layout="wide")
 
 # 제목
 st.title("👋 자기소개")
+st.write("안녕하세요. 저는 전효린입니다. 자기소개를 입력해주세요.")
 st.markdown("---")
 
 # 프로필 섹션
@@ -13,7 +14,8 @@ with col1:
     st.subheader("프로필")
     # 나중에 이미지 추가 가능
     st.write("이름: 여기에 이름 추가")
-    st.write("직급: 여기에 직급 추가")
+    st.write("생년월일: YYYY-MM-DD")
+    st.write("직업: 여기에 직업 추가 (학생, 교사, 회사원 등)")
 
 with col2:
     st.subheader("소개")
